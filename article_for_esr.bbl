@@ -1,97 +1,11 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{1}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 
-\bibitem[{{Alberta Chamber of
-  Resources}(2004)}]{alberta_chamber_of_resources_oil_2004}
-{Alberta Chamber of Resources}, 2004. Oil sands technology roadmap - unlocking
-  the potential. Tech. rep.
-
-\bibitem[{{Alberta Energy and Utilities
-  Board}(2005)}]{alberta_energy_and_utilities_board_st98-2005_2005}
-{Alberta Energy and Utilities Board}, 2005. {ST98-2005} alberta's reserves 2004
-  and {Supply/Demand} outlook 2005-2014. Tech. Rep. {ISSN} 1499-1179.
-
-\bibitem[{Birol and {International Energy Agency}(2012)}]{birol_world_2012}
-Birol, F., {International Energy Agency}, 2012. World Energy Outlook. {IEA}
-  Publications, Paris.
-
-\bibitem[{{{CAPP}}(2006)}]{capp_canadian_2006}
-{{CAPP}}, 2006. Canadian crude oil production and supply forecast 2006-2020.
-  Tech. rep.
-
-\bibitem[{{{CAPP}}(2012{\natexlab{a}})}]{capp_capps_2012}
-{{CAPP}}, 2012{\natexlab{a}}. {CAPP's} statistical handbook data.
-\newline\urlprefix\url{http://www.capp.ca/library/statistics/handbook/pages/statisticalTables.aspx?sectionNo=3}
-
-\bibitem[{{{CAPP}}(2012{\natexlab{b}})}]{capp_crude_2012}
-{{CAPP}}, 2012{\natexlab{b}}. Crude oil - forecast, markets \& pipelines. Tech.
-  rep.
-
-\bibitem[{Doshi et~al.(2012)Doshi, Morse, Kleinman, Lee, Yuen, and
-  Ahn}]{doshi_energy_2012}
-Doshi, A., Morse, E.~L., Kleinman, S.~M., Lee, E.~G., Yuen, A., Ahn, D.~P.,
-  2012. Energy 2020 - north america, the new middle east? Tech. Rep.
-  1212723147.
-
-\bibitem[{Dunbar et~al.(2004)Dunbar, Stogran, Chan, and Chan}]{dunbar_oil_2004}
-Dunbar, R., Stogran, M., Chan, P., Chan, K.-s., 2004. Oil sands supply outlook
-  - potential supply and costs of crude bitumen and synthetic crude oil in
-  canada 2003-2017. Tech. Rep. {ISBN} 1896091849.
-
-\bibitem[{{Government of Alberta}(2012)}]{government_of_alberta_osip_2012}
-{Government of Alberta}, 2012. {OSIP} data library - oil sands projects
-  production history graph.
-\newline\urlprefix\url{http://environment.alberta.ca/apps/OSIPDL/Dataset/Details/45}
-
-\bibitem[{Hirsch and Bezdek(2005)}]{hirsch_peaking_2005}
-Hirsch, R., Bezdek, R., 2005. Peaking of world oil production: impact,
-  mitigation \& risk management. United States Department of Energy.
-\newline\urlprefix\url{http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:PEAKING+OF+WORLD+OIL+PRODUCTION:+IMPACTS,+MITIGATION,+&+RISK+MANAGEMENT#3}
-
-\bibitem[{Millington(2011)}]{millington_oil_2011}
-Millington, D., 2011. Oil sands.
-
-\bibitem[{Millington and Mei(2011)}]{millington_canadian_2011}
-Millington, D., Mei, M., 2011. Canadian oil sands supply costs and development
-  projects (2010 - 2044). Tech. rep.
-
-\bibitem[{{National Energy Board
-  Canada}(2000)}]{national_energy_board_canada_canadas_2000}
-{National Energy Board Canada}, 2000. Canada's oil sands: A supply and market
-  outlook to 2015. Tech. Rep. {066229467X}.
-
-\bibitem[{{National Energy Board
-  Canada}(2003)}]{national_energy_board_canada_canadas_2003}
-{National Energy Board Canada}, 2003. Canada's energy future - scenarios for
-  supply and demand to 2025. Tech. Rep. 0662338588.
-
-\bibitem[{{National Energy Board
-  Canada}(2007)}]{national_energy_board_canada_canadas_2007}
-{National Energy Board Canada}, 2007. Canada's Energy Future - Reference Case
-  and Scenarios to 2030.
-
-\bibitem[{{National Energy Board
-  Canada}(2009)}]{national_energy_board_canada_2009_2009}
-{National Energy Board Canada}, 2009. 2009 Reference Case Scenario: Canadian
-  energy demand and supply to 2020.
-
-\bibitem[{{National Energy Board
-  Canada}(2011)}]{national_energy_board_canada_canadas_2011}
-{National Energy Board Canada}, 2011. Canada's Energy Future: Energy Supply and
-  Demand Projections to 2035.
-\newline\urlprefix\url{http://cnsopb.ns.ca/pdfs/NEB_DM_PROD_500568_Safety_Plan_Guidelines_Drilling_Production_Regulation.pdf}
-
-\bibitem[{{Oilsands Review}(2012)}]{oilsands_review_oilsands_2012}
-{Oilsands Review}, 2012. Oilsands production.
-\newline\urlprefix\url{http://www.oilsandsreview.com/statistics/production.asp}
-
-\bibitem[{{Statistics Canada}(2012)}]{statistics_canada_energy_2012}
-{Statistics Canada}, 2012. Energy statistics handbook. Tech. Rep. 1496-4600.
-
-\bibitem[{{{TD} Securities}(2002)}]{td_securities_overview_2002}
-{{TD} Securities}, 2002. Overview of canada's oil sands. Tech. rep.
+\bibitem[{Hehl(2014)}]{Hehl2014}
+Hehl, F., 2014. Oilsandsdatabase.
+\newline\urlprefix\url{http://www.hehl.se/oilsandsdatabase}
 
 \end{thebibliography}

@@ -1,19 +1,27 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: article_for_esr.aux
 The style file: elsarticle-harv.bst
-Database file #1: ../../Energy_cited.bib
-Warning--empty institution in alberta_chamber_of_resources_oil_2004
-Warning--empty institution in alberta_energy_and_utilities_board_st98-2005_2005
-Warning--empty institution in capp_canadian_2006
-Warning--empty institution in capp_crude_2012
-Warning--empty institution in doshi_energy_2012
-Warning--empty institution in dunbar_oil_2004
-Warning--empty journal in millington_oil_2011
-Warning--empty institution in millington_canadian_2011
-Warning--empty institution in national_energy_board_canada_canadas_2000
-Warning--empty institution in national_energy_board_canada_canadas_2003
-Warning--empty publisher in national_energy_board_canada_canadas_2007
-Warning--empty publisher in national_energy_board_canada_2009_2009
-Warning--empty publisher in national_energy_board_canada_canadas_2011
-Warning--empty institution in statistics_canada_energy_2012
-Warning--empty institution in td_securities_overview_2002
-(There were 15 warnings)
+Database file #1: art_hehl_2014.bib
+Warning--I didn't find a database entry for "hirsch_peaking_2005"
+Warning--I didn't find a database entry for "national_energy_board_canada_canadas_2000"
+Warning--I didn't find a database entry for "td_securities_overview_2002"
+Warning--I didn't find a database entry for "national_energy_board_canada_canadas_2003"
+Warning--I didn't find a database entry for "dunbar_oil_2004"
+Warning--I didn't find a database entry for "alberta_chamber_of_resources_oil_2004"
+Warning--I didn't find a database entry for "alberta_energy_and_utilities_board_st98-2005_2005"
+Warning--I didn't find a database entry for "capp_canadian_2006"
+Warning--I didn't find a database entry for "national_energy_board_canada_canadas_2007"
+Warning--I didn't find a database entry for "national_energy_board_canada_2009_2009"
+Warning--I didn't find a database entry for "national_energy_board_canada_canadas_2011"
+Warning--I didn't find a database entry for "millington_canadian_2011"
+Warning--I didn't find a database entry for "millington_oil_2011"
+Warning--I didn't find a database entry for "capp_crude_2012"
+Warning--I didn't find a database entry for "doshi_energy_2012"
+Warning--I didn't find a database entry for "statistics_canada_energy_2012"
+Warning--I didn't find a database entry for "government_of_alberta_osip_2012"
+Warning--I didn't find a database entry for "capp_capps_2012"
+Warning--I didn't find a database entry for "oilsands_review_oilsands_2012"
+Warning--I didn't find a database entry for "birol_world_2012"
+Warning--I didn't find a database entry for "dale_meta-analysis_2012"
+Warning--I didn't find a database entry for "the_oil_drum_net_2008"
+Warning--I didn't find a database entry for "oil_and_energy_trends_bitumen_2006"
+(There were 23 warnings)

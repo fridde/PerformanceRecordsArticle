@@ -1,29 +1,3 @@
-%%
-%% Copyright 2007, 2008, 2009 Elsevier Ltd
-%%
-%% This file is part of the 'Elsarticle Bundle'.
-%% ---------------------------------------------
-%%
-%% It may be distributed under the conditions of the LaTeX Project Public
-%% License, either version 1.2 of this license or (at your option) any
-%% later version.  The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.2 or later is part of all distributions of LaTeX
-%% version 1999/12/01 or later.
-%%
-%% The list of all files belonging to the 'Elsarticle Bundle' is
-%% given in the file `manifest.txt'.
-%%
-
-%% Template article for Elsevier's document class `elsarticle'
-%% with harvard style bibliographic references
-%% SP 2008/03/01
-%%
-%%
-%%
-%% $Id: elsarticle-template-harv.tex 4 2009-10-24 08:22:58Z rishi $
-%%
-%%
 
 % ------------------------------------------------------------------------------
 % Things that have to be fixed before final version:
@@ -37,27 +11,7 @@
 % ------------------------------------------------------------------------------
 \documentclass[final,authoryear,1p]{elsarticle}
 
-%% Use the option review to obtain double line spacing
-%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
 
-%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
-%% for a journal layout:
-%% \documentclass[final,authoryear,1p,times]{elsarticle}
-%% \documentclass[final,authoryear,1p,times,twocolumn]{elsarticle}
-%% \documentclass[final,authoryear,3p,times]{elsarticle}
-%% \documentclass[final,authoryear,3p,times,twocolumn]{elsarticle}
-%% \documentclass[final,authoryear,5p,times]{elsarticle}
-%% \documentclass[final,authoryear,5p,times,twocolumn]{elsarticle}
-
-%% if you use PostScript figures in your article
-%% use the graphics package for simple commands
-%% \usepackage{graphics}
-%% or use the graphicx package for more complicated commands
-%% \usepackage{graphicx}
-%% or use the epsfig package if you prefer to use the old commands
-%% \usepackage{epsfig}
-
-%% The amssymb package provides various useful mathematical symbols
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage[latin1]{inputenc}
@@ -69,81 +23,18 @@
 \usepackage{subcaption}
 \usepackage[colorlinks=true, pdfborder={0 0 0}]{hyperref}
 \usepackage{pdfpages}
-%\makenomenclature
-%\renewcommand{\nomname}{Abbreviations and glossary}
-%% The amsthm package provides extended theorem environments
-%% \usepackage{amsthm}
 
 \widowpenalty=10000
 
-%% The lineno packages adds line numbers. Start line numbering with
-%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
-%% for the whole article with \linenumbers after \end{frontmatter}.
-%% \usepackage{lineno}
 
-%% natbib.sty is loaded by default. However, natbib options can be
-%% provided with \biboptions{...} command. Following options are
-%% valid:
-
-%%   round  -  round parentheses are used (default)
-%%   square -  square brackets are used   [option]
-%%   curly  -  curly braces are used      {option}
-%%   angle  -  angle brackets are used    <option>
-%%   semicolon  -  multiple citations separated by semi-colon (default)
-%%   colon  - same as semicolon, an earlier confusion
-%%   comma  -  separated by comma
-%%   authoryear - selects author-year citations (default)
-%%   numbers-  selects numerical citations
-%%   super  -  numerical citations as superscripts
-%%   sort   -  sorts multiple citations according to order in ref. list
-%%   sort&compress   -  like sort, but also compresses numerical citations
-%%   compress - compresses without sorting
-%%   longnamesfirst  -  makes first citation full author list
-%%
-%% \biboptions{longnamesfirst,comma}
-
-% Things that have 
 
 \biboptions{square}
 
 \journal{Uppsala University}
 
 \begin{document}
-%\includepdf{exjobbsframsida.pdf}
-%\includepdf{abstract.pdf}
-%\includepdf[pages=-]{swedish_page.pdf}
 
 \begin{frontmatter}
-% Essential title page information 
-
-%• Title. Concise and informative. Titles are often used in information-retrieval systems. Avoid abbreviations and formulae where possible.
-
-%• Author names and affiliations. Where the family name may be ambiguous (e.g., a double name), please indicate this clearly. Present the authors' affiliation addresses (where the actual work was done) below the names. Indicate all affiliations with a lower-case superscript letter immediately after the author's name and in front of the appropriate address. Provide the full postal address of each affiliation, including the country name and, if available, the e-mail address of each author.
-
-%• Corresponding author. Clearly indicate who will handle correspondence at all stages of refereeing and publication, also post-publication. Ensure that phone numbers (with country and area code) are provided in addition to the e-mail address and the complete postal address. Contact details must be kept up to date by the corresponding author.
-
-%• Present/permanent address. If an author has moved since the work described in the article was done, or was visiting at the time, a 'Present address' (or 'Permanent address') may be indicated as a footnote to that author's name. The address at which the author actually did the work must be retained as the main, affiliation address. Superscript Arabic numerals are used for such footnotes.
-
-%% Title, authors and addresses
-% 
-%% use the tnoteref command within \title for footnotes;
-%% use the tnotetext command for the associated footnote;
-%% use the fnref command within \author or \address for footnotes;
-%% use the fntext command for the associated footnote;
-%% use the corref command within \author for corresponding author footnotes;
-%% use the cortext command for the associated footnote;
-%% use the ead command for the email address,
-%% and the form \ead[url] for the home page:
-%%
-%% \title{Title\tnoteref{label1}}
-%% \tnotetext[label1]{}
-%% \author{Name\corref{cor1}\fnref{label2}}
-%% \ead{email address}
-%% \ead[url]{home page}
-%% \fntext[label2]{}
-%% \cortext[cor1]{}
-%% \address{Address\fnref{label3}}
-%% \fntext[label3]{}
 
 \title{Establishing performance records for prognoses using Canadian oil sands as example}
 
@@ -158,17 +49,13 @@
 
 \begin{abstract}
 %% Text of abstract
-%The research focus (i.e. statement of the problem(s)/research issue(s) addressed);
-%The research methods used (experimental research, case studies, questionnaires, etc.);
-%The results/findings of the research; and
-%The main conclusions and recommendations
 
 \textbf{\emph{Note: Old abstract, taken from Master Thesis}}
 
 Crude oil plays an important role for the global energy system. As there is ample evidence that conventional oil production will have peaked by 2020, unconventional oil has attained a stronger focus. In particular, oil derived from bitumen from Canadian oil sands has been proposed as a possible remedy to global oil depletion. 
 
 This study aims to test the hypothesis that forecasts on the Canadian oil sands published between about 2000 and 2010 have been overestimating production significantly.
-A large compilation of oil sands projects, prognoses and production data has been established using openly available databases and reports. Conversion, standardization and analysis of the data was done using the statistical programming language R. The resulting programming code and databases have been compiled into a package available free and open-source online.
+A large compilation of oil sands projects, prognoses and production data has been established using openly available databases and reports. Conversion, standardization and analysis of the data were done using a webinterface made solely for this purpose.
 
 The statistical analysis shows a significant bias of the prognoses towards an overestimation of oil sands production. The compilation shows that most authors tend to overestimate the rate of expansion of the industry. Therefore, any prognosis on the expansion of the industry should be examined thoroughly before use.
 \end{abstract}
@@ -177,105 +64,35 @@ The statistical analysis shows a significant bias of the prognoses towards an ov
 oil sands \sep unconventional oil \sep analysis \sep heavy oil 
 %% keywords here, in the form: keyword \sep keyword
 
-%% MSC codes here, in the form: \MSC code \sep code
-%% or \MSC[2008] code \sep code (2000 is the default)
-
 \end{keyword}
 
 \end{frontmatter}
 
-\clearpage
-
-\tableofcontents
 
 \clearpage
 % \linenumbers
 
-% Guidelines from http://www.elsevier.com/journals/energy-strategy-reviews/2211-467X/guide-for-authors
-%Title
-%Titles should be short and enticing (no more than ten words). (See also below: Essential title page information)
-%
-%Abstract
-%Briefly explain the necessary background and encapsulate the take-home message for a non-specialist readership. Please emphasize the recent developments that make your paper timely. The length of the Abstract should be between 100 and 120 words. Please do not include reference citations.
-%
-%Organisation
-%The Introduction should be aimed at a non-specialist audience. Please indicate the timeliness and rationale for your article (i.e. why the subject is important; why now). Use concise logical Subheadings and provide clear links between sections. Please end with a brief summary of your article, a strong take-home message and include a clear indication of future work.
-%
-%Text Box
-%Ideal for providing explanations of basic concepts or theories, giving detailed mechanisms or discussing case studies. Text Boxes can occasionally contain small figures and tables. Length, 400 words maximum per Text Box (refs. to be listed in main reference list only). No more than 4 Text Boxes per article.
-%
-%Results 
-%Results should be clear and concise.
-%
-%Discussion 
-%This should explore the significance of the results of the work, not repeat them, and be written in the present tense. A combined Results and Discussion section is often appropriate. Avoid extensive citations and discussion of published literature.
-%
-%Conclusions 
-%The Conclusions section should stand alone.
-%
-%Glossary 
-%Please supply, as a separate list, the definitions of field-specific terms used in your article.
-%
-%Appendices 
-%The use of appendices is not encouraged. If there is more than one appendix, they should be identified as A, B, etc. Formulae and equations in appendices should be given separate numbering: Eq. (A.1), Eq. (A.2), etc.; in a subsequent appendix, Eq. (B.1) and so on. Similarly for tables and figures: Table A.1; Fig. A.1, etc.
-
-%Highlights 
-%Highlights are mandatory for this journal. Highlights should describe the essence of the analyses, highlighting what is 'new' and distinctive about it. They must consist of a short collection of bullet points that convey the core findings of the article and should be submitted in a separate file in the online submission system. Please use 'Highlights' in the file name and include 3 to 5 bullet points (maximum 85 characters per bullet point including spaces). See http://www.elsevier.com/researchhighlights for examples.
-%
-%Keywords 
-%
-%Immediately after the abstract, provide a maximum of 6 keywords, using American spelling and avoiding general and plural terms and multiple concepts (avoid, for example, 'and', 'of'). Be sparing with abbreviations: only abbreviations firmly established in the field may be eligible. These keywords will be used for indexing purposes.
-%
-%Abbreviations 
-%
-%Define abbreviations that are not standard in this field in a footnote to be placed on the first page of the article. Such abbreviations that are unavoidable in the abstract must be defined at their first mention there, as well as in the footnote. Ensure consistency of abbreviations throughout the article.
-%
-%Abbreviations 
-%Abbreviations must be defined at their first mention in the abstract, as well as in the text. Ensure consistency of abbreviations throughout the article.
-%
-%Acknowledgements 
-%
-%Collate acknowledgements in a separate section at the end of the article before the references and do not, therefore, include them on the title page, as a footnote to the title or otherwise. List here those individuals who provided help during the research (e.g., providing language help, writing assistance or proof reading the article, etc.).
-%
-%Nomenclature 
-%Follow internationally accepted rules and conventions: use the international system of units (SI). If other quantities are mentioned, give their equivalent in SI.
-%
-%Math formulae 
-%Mathematical formulae and equations can only be presented in a 'box' or as an appendix in the published paper. Supply simple formulae or equations separately, and NOT in line of the normal text. Use the solidus (/) instead of a horizontal line for small fractional terms, e.g., X/Y. In principle, variables are to be presented in italics. Powers of e are often more conveniently denoted by exp. Number consecutively any equations referred to explicitly in the text.
-%
-%Footnotes 
-%
-%Footnotes should be used sparingly. Number them consecutively throughout the article, using superscript Arabic numbers. Many wordprocessors build footnotes into the text, and this feature may be used. Should this not be the case, indicate the position of footnotes in the text and present the footnotes themselves separately at the end of the article. Do not include footnotes in the Reference list. 
-%Table footnotes 
-%Indicate each footnote in a table with a superscript lowercase letter.
-
-%% The Appendices part is started with the command \appendix;
-%% appendix sections are then done as normal sections
- %%\appendix
-
-
 \section{Introduction}
 \label{sec:Introduction}
 Oil produced from Canadian oil sands has been pointed out as a possible remedy to mitigate a future decline of conventional oil production. 
-Since the so-called \emph{Hirsch-report} \citep{hirsch_peaking_2005}, which proposed the further expansion of the industry as a means to sustain global economic welfare, numerous articles, publications and comments have been submitted to the public for evaluation.  
+Since the so-called \emph{Hirsch-report} \cite{Hirsch2005}, which proposed the further expansion of the industry as a means to sustain global economic welfare, numerous articles, publications and comments have been submitted to the public for evaluation.  
 Among these are several outlooks and prognoses for the future development of the oil sands industry.
 
 However, these prognoses  are rarely made accountable for their performance compared to the actual course of events later on. 
-Since energy strategic decisions heavily rely on the choice of the prognosis that supports the decision, informed choices should evaluate the performance of earlier prognoses made with the same model.
+Since energy strategies heavily rely on the choice of the prognosis that supports the strategy, informed choices should evaluate the performance of earlier prognoses made with the same model or, if a model is not disclosed, the same institution.
 
 Surprisingly, performance ratings of historical prognoses have not been established as a standard tool when choosing a model, and, in fact, do not exist for most of the models.
 
-This article evaluates the performance of several prognoses made on the development of the production from Canadian oil sands made between 2000 and 2012. 
+This article evaluates the performance of several prognoses made on the development of the production from Canadian oil sands made between 2000 and 2012.  
 It shows that prognoses have tended to overestimate production vastly. 
-It furthermore attempts to visualize the performance ratings by \emph{"correcting"} recent prognoses, assuming similar ratings.
 
 Finally, the article discusses the need for more open models and recommends including the evaluation of performance ratings of earlier prognoses of a model into deciding upon energy strategies.
 
-
 \section{Methods}
 \label{sec:Methods}
-For this article, 19 sources have been reviewed. These can be seen in table \ref{tab:SourcesOfData}.  
+For this article, more than 35 sources from 12 different institutions have been reviewed. These can be seen in table \ref{tab:SourcesOfData}.  
 
+To facilitate the compilation, presentation and visualization of the data, a website has been programmed, publicly available at \cite{Hehl2014}
 
 \begin{itemize}
 	\item \emph{[include short descriptions of the sources]}
@@ -289,7 +106,7 @@ This is the closest guess, but can of course be proven wrong by the respective i
 
 \subsection{Comparing prognoses}
 
-If we define the \emph{horizon of a prognosis} as the largest distance of days between its publication
+If we define the \emph{horizon of a prognosis} as the largest distance of days between its publication 
  the date of and the prognosis predicts a val
  When comparing two prognoses, the maximum horizon a 
  The array of days is determined by the maximum of days that two  
@@ -307,7 +124,7 @@ If we define the \emph{horizon of a prognosis} as the largest distance of days b
 \citealp{national_energy_board_canada_canadas_2003} & D & 56 & 2003 & NEB\\ 
 \citealp{dunbar_oil_2004} & T & 138-150 & 2004 & CERI\\ 
 \citealp{alberta_chamber_of_resources_oil_2004} & D & 8 & 2004 & ACR\\ 
-\citealp{alberta_energy_and_utilities_board_st98-2005_2005} & D & 4, 2.16 & 2005 & AEUB\\ 
+\citealp{alberta_energy_and_utilities_board_st98-2005_2005} & D & 4, 2.16 & 2005 & AESRD\\ 
 \citealp{capp_canadian_2006} & T & App tabl 1 & 2006 & CAPP\\ 
 \citealp{national_energy_board_canada_canadas_2007} & D & 24 & 2007 & NEB\\ 
 \citealp{national_energy_board_canada_2009_2009} & D & 20 & 2009 & NEB\\ 
@@ -329,6 +146,71 @@ If we define the \emph{horizon of a prognosis} as the largest distance of days b
 	\label{tab:SourcesOfData}
 \end{table}
 
+\begin{description}
+\label{des:DescriptionOfSources}
+	\item[NEB] \emph{National Energy Board} \\ Independent federal agency. Purpose: regulate pipelines, energy development and trade in the Canadian public interest.
+\item[TD Securities] \emph{TD Bank Group} \\ Provider of capital market products and services to corporate, government and institutional clients.
+\item[CERI] \emph{Canadian Energy Research Institute} \\ Independent, non-profit research establishment. The Board consists of a politician and members of: Confer Consulting Ltd., Alberta Department of Energy, Imperial Oil Limited, NEXEN Inc., Natural Resources Canada, OSUM Oil Sands Corporation and the University of Calgary.
+\item[ACR] \emph{Alberta Chamber of Resources} \\ Resource based cross-sectoral industry association.
+\item[AEUB] \emph{Alberta Energy and Utilities Board} \\ Head of Energy Resources Conservation Board (ERCB),  that regulates the development of Alberta's energy resources.
+\item[CAPP] \emph{Canadian Association of Petroleum Producers} \\ Voice of Canada's upstream oil, oil sands and natural gas industry.
+\item[Citibank] Provider of financial solutions in corporate and investment banking, credit cards, consumer finance, investment, leasing and private banking.
+\item[Statistics Ca] \emph{Statistics Canada} \\ Canada's central statistical office.
+\item[Government] \emph{Government of Alberta} \\ Head of Alberta Environment and Sustainable Resource Development. Protects and enhances Alberta's natural environment, ensures  clean and healthy environment.
+\item[OSR] \emph{Oilsands Review} \\ Publication on oilsands industry coverage. Reflects interests of oilsands sector and its stakeholders in Canada and around the world including project owners, service and supply companies, investors, governments, communities, First Nations, and environmental groups.
+
+\end{description}
+
+
+\begin{table}
+	\centering
+		\begin{tabular}{| c | c | c | c |}
+		\hline
+Year & Author & Estimate in EJ & Estimate in Gbbl\\
+\hline 
+& & & \\
+1974 & Thomas & 1840 & 298\\ 
+1977 & MIT  & 1840 & 298\\ 
+1978 & WEC Delphi Poll  & 1360 & 221\\ 
+1978 & Ezra & 502 & 81.4\\ 
+1981 & Qadeer & 918 & 149\\ 
+1982 & Fraas & 1800 & 292\\ 
+1985 & Edmonds and Reilly & 3790 & 614\\ 
+2002 & Bentley & 4900 & 794\\ 
+\hline
+
+		\end{tabular}
+	\caption{Estimates of global ultimately recoverable resources of bitumen according to \citet{dale_meta-analysis_2012}. Barrels are calculated assuming an energy content of 6,16  GJ per barrel following \citet{the_oil_drum_net_2008}.}
+	\label{tab:EstimatesOfUltimatelyRecoverableResourcesAccordingTo}
+\end{table}
+
+Additionally, there are estimates for global oil sands and oil shale resources, given in table \ref{tab:EstimatesOfGlobalOilSandsAndOilShaleResources}. Although the total quantities do not give much information about possible production rates, the picture is clear: Canada, the US and Venezuela have the largest part of global reserves  of  bitumen.
+
+\begin{table}
+	\centering
+		\begin{tabular}{| l | r | c |}
+		\hline
+\textbf{Country/Region} & \textbf{Reserves in Gbbl} & \textbf{Remarks} \\ 
+\hline
+& & \\
+Canada & 2520 & Ultimate volume in place \\ 
+ & 1630 & Initial volume in place \\ 
+ & 308 & Ultimately recoverable \\ 
+ & 162 & Proven reserves \\ 
+US & 2000 & Ultimate volume in place \\ 
+ & 100 & Proven reserves \\ 
+Venezuela & 1180 & Volume in place \\ 
+ & 235 & Recoverable volume \\ 
+Former Soviet Union & 1170 & Initial volume in place \\ 
+Morocco & 700 & \\ 
+Jordan & 350 & \\ 
+Australia & 50& \\ 
+Nigeria & 43 & Initial volume in place \\ 
+\hline
+		\end{tabular}
+	\caption{Estimates of global oil sands and oil shale resources according to \citet{oil_and_energy_trends_bitumen_2006}. }
+	\label{tab:EstimatesOfGlobalOilSandsAndOilShaleResources}
+\end{table}
 
 \section{Discussion}
 \label{sec:Discussion}
@@ -345,89 +227,11 @@ If we define the \emph{horizon of a prognosis} as the largest distance of days b
 \end{itemize}
 
 
-%% References
-%%
-%% Following citation commands can be used in the body text:
-%%
-%%  \citet{key}  ==>>  Jones et al. (1990)
-%%  \citep{key}  ==>>  (Jones et al., 1990)
-%%
-%% Multiple citations as normal:
-%% \citep{key1,key2}         ==>> (Jones et al., 1990; Smith, 1989)
-%%                            or  (Jones et al., 1990, 1991)
-%%                            or  (Jones et al., 1990a,b)
-%% \citep{key} is the equivalent of \citet{key} in author-year mode
-%%
-%% Full author lists may be forced with \citet* or \citep*, e.g.
-%%   \citep*{key}            ==>> (Jones, Baker, and Williams, 1990)
-%%
-%% Optional notes as:
-%%   \citep[chap. 2]{key}    ==>> (Jones et al., 1990, chap. 2)
-%%   \citep[e.g.,][]{key}    ==>> (e.g., Jones et al., 1990)
-%%   \citep[see][pg. 34]{key}==>> (see Jones et al., 1990, pg. 34)
-%%  (Note: in standard LaTeX, only one note is allowed, after the ref.
-%%   Here, one note is like the standard, two make pre- and post-notes.)
-%%
-%%   \citealt{key}          ==>> Jones et al. 1990
-%%   \citealt*{key}         ==>> Jones, Baker, and Williams 1990
-%%   \citealp{key}          ==>> Jones et al., 1990
-%%   \citealp*{key}         ==>> Jones, Baker, and Williams, 1990
-%%
-%% Additional citation possibilities
-%%   \citeauthor{key}       ==>> Jones et al.
-%%   \citeauthor*{key}      ==>> Jones, Baker, and Williams
-%%   \citeyear{key}         ==>> 1990
-%%   \citeyearpar{key}      ==>> (1990)
-%%   \citetext{priv. comm.} ==>> (priv. comm.)
-%%   \citenum{key}          ==>> 11 [non-superscripted]
-%% Note: full author lists depends on whether the bib style supports them;
-%%       if not, the abbreviated list is printed even when full requested.
-%%
-%% For names like della Robbia at the start of a sentence, use
-%%   \Citet{dRob98}         ==>> Della Robbia (1998)
-%%   \citep{dRob98}         ==>> (Della Robbia, 1998)
-%%   \Citeauthor{dRob98}    ==>> Della Robbia
-
-
-%% References with bibTeX database:
-
 \section{References}
 \label{sec:References}
 \bibliographystyle{elsarticle-harv}
-\bibliography{../../Energy_cited}
+\bibliography{art_hehl_2014}
  
-%\printnomenclature
 
-%% Authors are advised to submit their bibtex database files. They are
-%% requested to list a bibtex style file in the manuscript if they do
-%% not want to use elsarticle-harv.bst.
-
-%% References without bibTeX database:
-
-% \begin{thebibliography}{00}
-
-%% \bibitem must have one of the following forms:
-%%   \bibitem[Jones et al.(1990)]{key}...
-%%   \bibitem[Jones et al.(1990)Jones, Baker, and Williams]{key}...
-%%   \bibitem[Jones et al., 1990]{key}...
-%%   \bibitem[\protect\citeauthoryear{Jones, Baker, and Williams}{Jones
-%%       et al.}{1990}]{key}...
-%%   \bibitem[\protect\citeauthoryear{Jones et al.}{1990}]{key}...
-%%   \bibitem[\protect\astroncitep{Jones et al.}{1990}]{key}...
-%%   \bibitem[\protect\citename{Jones et al., }1990]{key}...
-%%   \harvarditem[Jones et al.]{Jones, Baker, and Williams}{1990}{key}...
-%%
-
-% \bibitem[ ()]{}
-
-% \end{thebibliography}
 
 \end{document}
-
-
-
-
-
-
-%%
-%% End of file `elsarticle-template-harv.tex'.
